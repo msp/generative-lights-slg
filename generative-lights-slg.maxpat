@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 66.0, 81.0, 1342.0, 901.0 ],
+		"rect" : [ 34.0, 79.0, 1068.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,1028 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 34.0, 97.0, 113.0, 22.0 ],
+					"style" : "",
+					"text" : "if $i1 > 0 then bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-33",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 695.5, 336.0, 154.0, 40.0 ],
+					"style" : "",
+					"text" : "double click for background samples"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "dictionary" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 7,
+							"minor" : 2,
+							"revision" : 2,
+							"architecture" : "x86",
+							"modernui" : 1
+						}
+,
+						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-3",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 493.0, 276.0, 30.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-2",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 112.0, 276.0, 30.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 112.0, 46.0, 30.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"clipheight" : 85.0,
+									"data" : 									{
+										"clips" : [ 											{
+												"filename" : "HD:/data/matt/AudioSources/Samples/SimpleTones/Sine/250hz.wav",
+												"filekind" : "audiofile",
+												"loop" : 1,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"id" : "obj-17",
+									"maxclass" : "playlist~",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+									"patching_rect" : [ 112.0, 129.0, 411.0, 86.0 ],
+									"style" : ""
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-17", 4 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 851.0, 345.0, 117.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"style" : "",
+						"tags" : ""
+					}
+,
+					"style" : "",
+					"text" : "patcher background"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-10",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 581.0, 420.0, 144.0, 40.0 ],
+					"style" : "",
+					"text" : "double click for light1 samples"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 7,
+							"minor" : 2,
+							"revision" : 2,
+							"architecture" : "x86",
+							"modernui" : 1
+						}
+,
+						"rect" : [ 135.0, 144.0, 1030.0, 686.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-3",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 131.25, 752.0, 30.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-2",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 752.0, 30.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 10.0, 30.0, 30.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"clipheight" : 25.038462,
+									"data" : 									{
+										"clips" : [ 											{
+												"filename" : "HD:/data/matt/AudioSources/Samples/SimpleTones/Sine/150.wav",
+												"filekind" : "audiofile",
+												"loop" : 1,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/cymbal-hihat-open-stick-2.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/cymbal-hihat-open-stick-1.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/cymbal-hihat-lick.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/cymbal-hihat-foot-open.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/cymbal-hihat-foot-2.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/cymbal-hihat-foot-1.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/cymbal-china-stick.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/cymbal-china-mallet.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/cowbell-small-open.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/cowbell-small-closed.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/cowbell-large-open.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/cowbell-large-closed.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/conga-slap-2.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/conga-slap-1.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/conga-open-2.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/conga-open-1.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/conga-muffled-2.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/conga-muffled-1.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/conga-lick.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/belltree.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/bell-octave2.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/bell-octave1.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/bell-octave0.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/afuche.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/afuche-long.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchcorrection" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"pitchshift" : [ 1.0 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"originallength" : [ 0.0, "ticks" ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"originallengthms" : [ 0.0 ],
+													"slurtime" : [ 0.0 ],
+													"formantcorrection" : [ 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"id" : "obj-9",
+									"maxclass" : "playlist~",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+									"patching_rect" : [ 15.0, 60.0, 484.0, 677.0 ],
+									"style" : ""
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 1 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 731.0, 429.0, 83.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"style" : "",
+						"tags" : ""
+					}
+,
+					"style" : "",
+					"text" : "patcher light1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"blinkcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"id" : "obj-3",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"patching_rect" : [ 34.0, 128.0, 162.0, 162.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 671.0, 300.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 670.0, 272.0, 99.0, 22.0 ],
+					"style" : "",
+					"text" : "scale 1 127 1 26"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"extract" : 1,
+					"id" : "obj-5",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.Stereo.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 851.0, 620.0, 148.0, 116.0 ],
+					"varname" : "bp.Stereo",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 897.0, 499.0, 29.5, 22.0 ],
+					"patching_rect" : [ 897.0, 1204.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "+ 1"
 				}
@@ -57,7 +1073,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 897.0, 528.0, 50.0, 22.0 ],
+					"patching_rect" : [ 897.0, 1233.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -69,7 +1085,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 897.0, 468.0, 68.0, 22.0 ],
+					"patching_rect" : [ 897.0, 1173.0, 68.0, 22.0 ],
 					"style" : "",
 					"text" : "random 12"
 				}
@@ -83,7 +1099,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1166.0, 486.0, 50.0, 22.0 ],
+					"patching_rect" : [ 1166.0, 1191.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -96,7 +1112,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1051.217773, 455.0, 50.0, 22.0 ],
+					"patching_rect" : [ 1051.217773, 1160.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -110,7 +1126,7 @@
 					"offset" : 1,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 709.5, 303.0, 592.0, 38.0 ],
+					"patching_rect" : [ 709.5, 1008.0, 592.0, 38.0 ],
 					"presentation_rect" : [ 75.0, 75.0, 888.0, 53.0 ],
 					"range" : 127,
 					"style" : ""
@@ -127,7 +1143,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 728.5, 528.0, 53.0, 23.0 ],
+					"patching_rect" : [ 728.5, 1233.0, 53.0, 23.0 ],
 					"style" : ""
 				}
 
@@ -230,7 +1246,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 976.217712, 356.0, 24.0, 24.0 ],
+					"patching_rect" : [ 976.217712, 1061.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -377,7 +1393,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 728.5, 474.0, 105.0, 22.0 ],
+					"patching_rect" : [ 728.5, 1179.0, 105.0, 22.0 ],
 					"style" : "",
 					"text" : "scale 1 127 12 60"
 				}
@@ -419,7 +1435,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1051.217773, 510.0, 110.0, 23.0 ],
+					"patching_rect" : [ 1051.217773, 1215.0, 110.0, 23.0 ],
 					"style" : "",
 					"text" : "pgmout"
 				}
@@ -434,7 +1450,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1051.217773, 393.0, 80.0, 23.0 ],
+					"patching_rect" : [ 1051.217773, 1098.0, 80.0, 23.0 ],
 					"style" : "",
 					"text" : "random 128"
 				}
@@ -449,7 +1465,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 728.5, 561.970581, 252.5, 23.0 ],
+					"patching_rect" : [ 728.5, 1266.970581, 252.5, 23.0 ],
 					"style" : "",
 					"text" : "makenote 128 500 1"
 				}
@@ -476,7 +1492,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1117.944458, 459.029419, 41.0, 23.0 ],
+					"patching_rect" : [ 1117.944458, 1164.029419, 41.0, 23.0 ],
 					"style" : "",
 					"text" : "+ 1"
 				}
@@ -491,7 +1507,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1117.944458, 428.514709, 73.0, 23.0 ],
+					"patching_rect" : [ 1117.944458, 1133.514648, 73.0, 23.0 ],
 					"style" : "",
 					"text" : "random 16"
 				}
@@ -505,7 +1521,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 728.0, 596.485291, 253.0, 23.0 ],
+					"patching_rect" : [ 728.0, 1301.485352, 253.0, 23.0 ],
 					"style" : "",
 					"text" : "noteout"
 				}
@@ -535,7 +1551,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1070.0, 315.0, 75.0, 29.0 ],
+					"patching_rect" : [ 1070.0, 1020.0, 75.0, 29.0 ],
 					"style" : "",
 					"text" : "Sound"
 				}
@@ -896,7 +1912,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 706.0, 298.5, 600.0, 540.5 ],
+					"patching_rect" : [ 706.0, 1003.5, 600.0, 540.5 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -978,10 +1994,48 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 680.5, 405.0, 740.5, 405.0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 958.5, 606.0, 989.5, 606.0 ],
+					"source" : [ "obj-22", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -1010,26 +2064,16 @@
 					"destination" : [ "obj-54", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 524.5, 267.0, 373.0, 267.0, 373.0, 114.0, 211.5, 114.0 ],
+					"midpoints" : [ 524.5, 268.0, 373.0, 268.0, 373.0, 108.0, 211.5, 108.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-78", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-90", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 679.5, 349.0, 985.717712, 349.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1211,6 +2255,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1288,6 +2341,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 211.5, 147.0, 198.0, 147.0, 198.0, 84.0, 43.5, 84.0 ],
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1329,6 +2392,26 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 804.5, 606.0, 989.5, 606.0 ],
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 740.5, 606.0, 860.5, 606.0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -1400,7 +2483,7 @@
 					"destination" : [ "obj-61", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 719.0, 462.0, 738.0, 462.0 ],
+					"midpoints" : [ 719.0, 1167.0, 738.0, 1167.0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -1429,7 +2512,7 @@
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 985.717712, 426.0, 1113.0, 426.0, 1113.0, 423.0, 1127.444458, 423.0 ],
+					"midpoints" : [ 985.717712, 1131.0, 1113.0, 1131.0, 1113.0, 1128.0, 1127.444458, 1128.0 ],
 					"source" : [ "obj-90", 0 ]
 				}
 
@@ -1439,7 +2522,7 @@
 					"destination" : [ "obj-64", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 985.717712, 453.0, 906.5, 453.0 ],
+					"midpoints" : [ 985.717712, 1158.0, 906.5, 1158.0 ],
 					"source" : [ "obj-90", 0 ]
 				}
 
@@ -1483,10 +2566,185 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-5::obj-55" : [ "DSP", "DSP", 0 ],
+			"obj-5::obj-22" : [ "Mute", "Mute", 0 ],
+			"obj-5::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
+			"obj-5::obj-52" : [ "Level", "Level", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "timeline.js",
-				"bootpath" : "/data/development/max/art-net-dmx-step-sequencer",
+				"bootpath" : "/data/development/max/generative-lights-slg",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Stereo.maxpat",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Output",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "150.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/SimpleTones/Sine",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cymbal-hihat-open-stick-2.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cymbal-hihat-open-stick-1.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cymbal-hihat-lick.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cymbal-hihat-foot-open.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cymbal-hihat-foot-2.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cymbal-hihat-foot-1.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cymbal-china-stick.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cymbal-china-mallet.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cowbell-small-open.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cowbell-small-closed.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cowbell-large-open.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cowbell-large-closed.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "conga-slap-2.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "conga-slap-1.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "conga-open-2.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "conga-open-1.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "conga-muffled-2.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "conga-muffled-1.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "conga-lick.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "belltree.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bell-octave2.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bell-octave1.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bell-octave0.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "afuche.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "afuche-long.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "250hz.wav",
+				"bootpath" : "/data/matt/AudioSources/Samples/SimpleTones/Sine",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
