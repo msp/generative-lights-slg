@@ -5,9 +5,9 @@ var light1 = new timelineUtils.Timeline('light1', 0);
 var light2 = new timelineUtils.Timeline('light2', 1);
 //post("MSP JSON light1: "+JSON.stringify(light1)+ "\n");
 
-//light1.events = [1, 10, 20 , 30 ,200, 400, 600, 680, 860, 900, 910, 920, 925, 1000, 1100, 1200];
-light1.events = [200, 400];
-light2.events = [1, 20, 40, 60, 90, 120, 150, 190, 500];
+light1.events = [1, 10, 20 , 30 ,200, 400, 600, 680, 860, 900, 910, 920, 925, 1000, 1100, 1200];
+//light1.events = [1100, 1200];
+light2.events = [50, 100, 120, 300, 500, 550, 800, 990, 1000];
 
 inlets = 2;
 outlets = 4;

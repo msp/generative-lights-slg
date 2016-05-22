@@ -29,7 +29,7 @@ Timeline.prototype.draw = function() {
   } else {
     if (this.offDelayCounter >= this.offDelay) {
       this.offDelayCounter = 0;
-      outlet(this.outlet, -1);
+      //outlet(this.outlet, -1);
     } else {
       this.offDelayCounter++
     }
