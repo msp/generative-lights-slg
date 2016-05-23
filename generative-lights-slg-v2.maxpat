@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 751.0 ],
+		"rect" : [ 34.0, 79.0, 619.0, 655.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -935,6 +935,22 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"attr" : "activebgcolor",
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-141",
+									"maxclass" : "attrui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 539.25, 476.0, 144.0, 23.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bubble" : 1,
 									"bubbleside" : 2,
 									"id" : "obj-17",
@@ -1222,9 +1238,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 348.0, 205.0, 165.0, 22.0 ],
+									"patching_rect" : [ 348.0, 205.0, 152.0, 22.0 ],
 									"style" : "",
-									"text" : "setall 255 255 255 255, bang"
+									"text" : "setall 0 255 255 255, bang"
 								}
 
 							}
@@ -1252,9 +1268,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 240.0, 416.0, 63.0, 22.0 ],
+									"patching_rect" : [ 240.0, 461.0, 145.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.window"
+									"text" : "jit.window @fsmenubar 0"
 								}
 
 							}
@@ -1267,7 +1283,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 240.0, 388.0, 112.0, 22.0 ],
+									"patching_rect" : [ 240.0, 433.0, 112.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.matrix 4 char 1 1"
 								}
@@ -1743,14 +1759,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-71",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 157.0, 243.0, 123.0, 35.0 ],
+					"patching_rect" : [ 161.0, 267.0, 135.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 > 0 then 255 else 0"
+					"text" : "if $i1 > 0 then 50 else 0"
 				}
 
 			}
@@ -1802,7 +1817,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 754.0, 79.0, 652.0, 751.0 ],
+						"rect" : [ 34.0, 79.0, 652.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2064,10 +2079,10 @@
 							}
 , 							{
 								"box" : 								{
-									"clipheight" : 167.5,
+									"clipheight" : 31.095238,
 									"data" : 									{
 										"clips" : [ 											{
-												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/belltree.wav",
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-20.wav",
 												"filekind" : "audiofile",
 												"loop" : 0,
 												"content_state" : 												{
@@ -2090,7 +2105,7 @@
 
 											}
 , 											{
-												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/bell-octave2.wav",
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-19.wav",
 												"filekind" : "audiofile",
 												"loop" : 0,
 												"content_state" : 												{
@@ -2113,7 +2128,7 @@
 
 											}
 , 											{
-												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/bell-octave1.wav",
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-18.wav",
 												"filekind" : "audiofile",
 												"loop" : 0,
 												"content_state" : 												{
@@ -2136,7 +2151,398 @@
 
 											}
 , 											{
-												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/bell-octave0.wav",
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-17.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-16.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-15.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-14.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-13.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-12.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-11.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-10.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-9.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-8.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-7.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-6.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-5.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-4.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-3.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-2.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/BugTones-1.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Tones Library/.DS_Store",
 												"filekind" : "audiofile",
 												"loop" : 0,
 												"content_state" : 												{
@@ -2195,7 +2601,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
-									"disabled" : 1,
+									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-11", 0 ]
 								}
@@ -2427,7 +2833,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 766.0, 312.0, 336.0, 480.0 ],
+						"rect" : [ 232.0, 163.0, 336.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2497,7 +2903,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 112.0, 46.0, 30.0, 30.0 ],
 									"style" : ""
 								}
@@ -2508,7 +2914,7 @@
 									"clipheight" : 85.0,
 									"data" : 									{
 										"clips" : [ 											{
-												"filename" : "HD:/data/matt/AudioSources/Samples/SimpleTones/Sine/250hz.wav",
+												"filename" : "/data/development/max/generative-lights-slg/data/Background track.wav",
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
@@ -2631,7 +3037,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 176.0, 198.0, 1082.0, 394.0 ],
+						"rect" : [ 111.0, 134.0, 649.0, 696.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2819,7 +3225,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 815.967957, 718.0, 220.0, 23.0 ],
 									"style" : "",
-									"text" : "conga-muffled-2.wav"
+									"text" : "Breathing-B.wav"
 								}
 
 							}
@@ -3139,10 +3545,10 @@
 							}
 , 							{
 								"box" : 								{
-									"clipheight" : 95.285713,
+									"clipheight" : 34.473682,
 									"data" : 									{
 										"clips" : [ 											{
-												"filename" : "/data/development/max/generative-lights-slg/data/conga-slap-2.wav",
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-I.wav",
 												"filekind" : "audiofile",
 												"loop" : 0,
 												"content_state" : 												{
@@ -3165,7 +3571,7 @@
 
 											}
 , 											{
-												"filename" : "/data/development/max/generative-lights-slg/data/conga-lick.wav",
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-H.wav",
 												"filekind" : "audiofile",
 												"loop" : 0,
 												"content_state" : 												{
@@ -3188,7 +3594,7 @@
 
 											}
 , 											{
-												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/conga-open-2.wav",
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-G.wav",
 												"filekind" : "audiofile",
 												"loop" : 0,
 												"content_state" : 												{
@@ -3211,7 +3617,7 @@
 
 											}
 , 											{
-												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/conga-open-1.wav",
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-F.wav",
 												"filekind" : "audiofile",
 												"loop" : 0,
 												"content_state" : 												{
@@ -3234,7 +3640,7 @@
 
 											}
 , 											{
-												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/conga-slap-2.wav",
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-E.wav",
 												"filekind" : "audiofile",
 												"loop" : 0,
 												"content_state" : 												{
@@ -3257,7 +3663,7 @@
 
 											}
 , 											{
-												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/conga-muffled-2.wav",
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-D.wav",
 												"filekind" : "audiofile",
 												"loop" : 0,
 												"content_state" : 												{
@@ -3280,7 +3686,283 @@
 
 											}
 , 											{
-												"filename" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1/conga-muffled-1.wav",
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-C.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-B.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-A.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-10.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-9.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-8.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-7.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-6.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-5.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-4.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-3.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-2.wav",
+												"filekind" : "audiofile",
+												"loop" : 0,
+												"content_state" : 												{
+													"mode" : [ "basic" ],
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originaltempo" : [ 120.0 ],
+													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originallengthms" : [ 0.0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"formantcorrection" : [ 0 ],
+													"pitchcorrection" : [ 0 ]
+												}
+
+											}
+, 											{
+												"filename" : "/data/development/max/generative-lights-slg/data/Breathing Library/Breathing-1.wav",
 												"filekind" : "audiofile",
 												"loop" : 0,
 												"content_state" : 												{
@@ -3367,7 +4049,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
-									"disabled" : 1,
+									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-20", 0 ]
 								}
@@ -3707,14 +4389,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-24",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 243.0, 115.0, 35.0 ],
+					"patching_rect" : [ 37.0, 243.0, 135.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 > 0 then 255 else 0"
+					"text" : "if $i1 > 0 then 50 else 0"
 				}
 
 			}
@@ -4512,7 +5193,7 @@
 					"destination" : [ "obj-71", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 694.5, 702.0, 660.0, 702.0, 660.0, 228.0, 166.5, 228.0 ],
+					"midpoints" : [ 694.5, 702.0, 660.0, 702.0, 660.0, 228.0, 170.5, 228.0 ],
 					"source" : [ "obj-134", 0 ]
 				}
 
@@ -5075,7 +5756,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"disabled" : 1,
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 824.5, 72.0, 1062.0, 72.0, 1062.0, 294.0, 1265.5, 294.0 ],
 					"source" : [ "obj-7", 0 ]
@@ -5097,7 +5778,7 @@
 					"destination" : [ "obj-97", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 166.5, 306.0, 149.5, 306.0 ],
+					"midpoints" : [ 170.5, 306.0, 149.5, 306.0 ],
 					"source" : [ "obj-71", 0 ]
 				}
 
@@ -5271,38 +5952,116 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "conga-slap-2.wav",
-				"bootpath" : "/data/development/max/generative-lights-slg/data",
+				"name" : "Breathing-I.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "conga-lick.wav",
-				"bootpath" : "/data/development/max/generative-lights-slg/data",
+				"name" : "Breathing-H.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "conga-open-2.wav",
-				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"name" : "Breathing-G.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "conga-open-1.wav",
-				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"name" : "Breathing-F.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "conga-muffled-2.wav",
-				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"name" : "Breathing-E.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "conga-muffled-1.wav",
-				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"name" : "Breathing-D.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Breathing-C.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Breathing-B.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Breathing-A.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Breathing-10.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Breathing-9.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Breathing-8.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Breathing-7.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Breathing-6.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Breathing-5.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Breathing-4.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Breathing-3.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Breathing-2.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Breathing-1.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Breathing Library",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
@@ -5313,32 +6072,128 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "250hz.wav",
-				"bootpath" : "/data/matt/AudioSources/Samples/SimpleTones/Sine",
+				"name" : "Background track.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "belltree.wav",
-				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"name" : "BugTones-20.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bell-octave2.wav",
-				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"name" : "BugTones-19.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bell-octave1.wav",
-				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"name" : "BugTones-18.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bell-octave0.wav",
-				"bootpath" : "/data/matt/AudioSources/Samples/CC/OpenPathMusic44V1",
+				"name" : "BugTones-17.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-16.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-15.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-14.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-13.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-12.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-11.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-10.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-9.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-8.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-7.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-6.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-5.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-4.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-3.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-2.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BugTones-1.wav",
+				"bootpath" : "/data/development/max/generative-lights-slg/data/Tones Library",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
