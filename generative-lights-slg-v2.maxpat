@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 39.0, 79.0, 949.0, 901.0 ],
+		"rect" : [ 39.0, 79.0, 871.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2345,19 +2345,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -2368,19 +2368,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -2391,19 +2391,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -2414,19 +2414,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -2640,7 +2640,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 79.0, 1035.0, 751.0 ],
+						"rect" : [ 34.0, 79.0, 882.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2668,22 +2668,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"attr" : "activebgcolor",
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-141",
-									"maxclass" : "attrui",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 539.25, 476.0, 144.0, 23.0 ],
-									"style" : ""
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"bubble" : 1,
 									"bubbleside" : 2,
@@ -2775,7 +2759,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
+									"outlettype" : [ "int" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -2815,12 +2799,75 @@
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
-													"comment" : "",
-													"id" : "obj-8",
-													"maxclass" : "outlet",
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-10",
+													"linecount" : 3,
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 215.0, 118.0, 113.0, 49.0 ],
+													"style" : "",
+													"text" : ";\rmax hidemenubar;\rmax hidecursor;\r"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-11",
+													"linecount" : 3,
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 86.0, 118.0, 119.0, 49.0 ],
+													"style" : "",
+													"text" : ";\rmax showmenubar;\rmax showcursor;\r"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-12",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 86.0, 92.0, 36.0, 22.0 ],
+													"style" : "",
+													"text" : "sel 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 149.0, 29.0, 43.0, 22.0 ],
+													"style" : "",
+													"text" : "sel 27"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-13",
+													"maxclass" : "toggle",
 													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 284.0, 224.0, 25.0, 25.0 ],
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 86.0, 57.0, 28.0, 28.0 ],
 													"style" : ""
 												}
 
@@ -2829,39 +2876,55 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
-													"id" : "obj-2",
+													"id" : "obj-14",
 													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 284.0, 137.0, 43.0, 22.0 ],
+													"numinlets" : 0,
+													"numoutlets" : 4,
+													"outlettype" : [ "int", "int", "int", "int" ],
+													"patching_rect" : [ 86.0, 29.0, 59.5, 22.0 ],
 													"style" : "",
-													"text" : "sel 27"
+													"text" : "key"
 												}
 
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-1",
-													"maxclass" : "newobj",
-													"numinlets" : 0,
-													"numoutlets" : 4,
-													"outlettype" : [ "int", "int", "int", "int" ],
-													"patching_rect" : [ 284.0, 110.0, 59.5, 22.0 ],
-													"style" : "",
-													"text" : "key"
+													"comment" : "",
+													"id" : "obj-8",
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 353.0, 176.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
-													"destination" : [ "obj-2", 0 ],
+													"destination" : [ "obj-10", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-1", 0 ]
+													"midpoints" : [ 112.5, 114.5, 224.5, 114.5 ],
+													"source" : [ "obj-12", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-11", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-12", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-12", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-13", 0 ]
 												}
 
 											}
@@ -2870,7 +2933,28 @@
 													"destination" : [ "obj-8", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-2", 0 ]
+													"midpoints" : [ 95.5, 88.0, 116.5, 88.0, 116.5, 88.0, 362.5, 88.0 ],
+													"source" : [ "obj-13", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"midpoints" : [ 95.5, 52.0, 146.0, 52.0, 146.0, 24.0, 158.5, 24.0 ],
+													"source" : [ "obj-14", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-13", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"midpoints" : [ 158.5, 52.5, 95.5, 52.5 ],
+													"source" : [ "obj-4", 0 ]
 												}
 
 											}
@@ -3574,19 +3658,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3597,19 +3681,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3620,19 +3704,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3643,19 +3727,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3666,19 +3750,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3689,19 +3773,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3712,19 +3796,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3735,19 +3819,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3758,19 +3842,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3781,19 +3865,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3804,19 +3888,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3827,19 +3911,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3850,19 +3934,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3873,19 +3957,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3896,19 +3980,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3919,19 +4003,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3942,19 +4026,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3965,19 +4049,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -3988,19 +4072,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -4011,19 +4095,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -4034,19 +4118,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -4437,19 +4521,19 @@
 												"loop" : 1,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -4768,7 +4852,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 815.967957, 718.0, 220.0, 23.0 ],
 									"style" : "",
-									"text" : "Breathing-A.wav"
+									"text" : "Breathing-D.wav"
 								}
 
 							}
@@ -5096,19 +5180,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5119,19 +5203,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5142,19 +5226,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5165,19 +5249,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5188,19 +5272,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5211,19 +5295,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5234,19 +5318,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5257,19 +5341,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5280,19 +5364,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5303,19 +5387,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5326,19 +5410,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5349,19 +5433,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5372,19 +5456,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5395,19 +5479,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5418,19 +5502,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5441,19 +5525,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5464,19 +5548,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5487,19 +5571,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -5510,19 +5594,19 @@
 												"loop" : 0,
 												"content_state" : 												{
 													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"originallengthms" : [ 0.0 ],
 													"originallength" : [ 0.0, "ticks" ],
-													"slurtime" : [ 0.0 ],
-													"basictuning" : [ 440 ],
-													"mode" : [ "basic" ],
-													"timestretch" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
 													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
+													"slurtime" : [ 0.0 ],
 													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
 													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"timestretch" : [ 0 ],
 													"pitchcorrection" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"originallengthms" : [ 0.0 ],
+													"followglobaltempo" : [ 0 ],
 													"formantcorrection" : [ 0 ]
 												}
 
@@ -6313,27 +6397,27 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-22::obj-5::obj-28" : [ "Center[1]", "Center", 0 ],
 			"obj-29::obj-78" : [ "Ratio", "Ratio", 0 ],
-			"obj-29::obj-2" : [ "Output", "Output", 0 ],
-			"obj-29::obj-15::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-142" : [ "live.button[1]", "live.button", 0 ],
-			"obj-5::obj-52" : [ "Level", "Level", 0 ],
-			"obj-29::obj-47" : [ "Release", "Release", 0 ],
-			"obj-22::obj-5::obj-2" : [ "Rate", "Rate", 0 ],
 			"obj-22::obj-5::obj-3" : [ "Regen[1]", "Regen", 0 ],
 			"obj-5::obj-55" : [ "DSP", "DSP", 0 ],
+			"obj-29::obj-47" : [ "Release", "Release", 0 ],
+			"obj-5::obj-22" : [ "Mute", "Mute", 0 ],
+			"obj-29::obj-15::obj-2" : [ "pastebang", "pastebang", 0 ],
 			"obj-29::obj-44" : [ "Input", "Input", 0 ],
 			"obj-29::obj-52" : [ "Threshold", "Threshold", 0 ],
+			"obj-142" : [ "live.button[1]", "live.button", 0 ],
+			"obj-5::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
+			"obj-22::obj-5::obj-1" : [ "Width[1]", "Width", 0 ],
 			"obj-108" : [ "live.button", "live.button", 0 ],
 			"obj-29::obj-28" : [ "Attack", "Attack", 0 ],
-			"obj-5::obj-22" : [ "Mute", "Mute", 0 ],
 			"obj-29::obj-35" : [ "slider[2]", "slider[2]", 0 ],
-			"obj-22::obj-5::obj-1" : [ "Width[1]", "Width", 0 ],
+			"obj-22::obj-5::obj-23" : [ "bypass[1]", "bypass", 0 ],
+			"obj-29::obj-2" : [ "Output", "Output", 0 ],
+			"obj-22::obj-5::obj-2" : [ "Rate", "Rate", 0 ],
+			"obj-22::obj-5::obj-28" : [ "Center[1]", "Center", 0 ],
 			"obj-29::obj-12" : [ "Bypass", "Bypass", 0 ],
-			"obj-5::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
 			"obj-29::obj-34" : [ "slider[3]", "slider[3]", 0 ],
-			"obj-22::obj-5::obj-23" : [ "bypass[1]", "bypass", 0 ]
+			"obj-5::obj-52" : [ "Level", "Level", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
