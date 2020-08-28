@@ -1,18 +1,33 @@
 var timelineUtils = require("timeline-class"); //foo
 
 post(" ##################### \n\n\n")
-var light1 = new timelineUtils.Timeline('light1', 0);
-var light2 = new timelineUtils.Timeline('light2', 1);
-var projector1 = new timelineUtils.Timeline('projector1', 2);
-//post("MSP JSON light1: "+JSON.stringify(light1)+ "\n");
+var set1Light1 = new timelineUtils.Timeline('set1Light1', 0);
+var set1Light2 = new timelineUtils.Timeline('set1Light2', 1);
+var set1Projector1 = new timelineUtils.Timeline('set1Projector1', 2);
 
-//light1.events = [1, 10, 20 , 30 ,200, 400, 600, 680, 860, 900, 910, 920, 925, 1000, 1100, 1200];
-light1.events = [1000, 3000, 5000];
-light2.events = [100, 1500, 3500, 5500];
-projector1.events = [50, 1001, 2500];
+var set2Light1 = new timelineUtils.Timeline('set2Light1', 3);
+var set2Light2 = new timelineUtils.Timeline('set2Light2', 4);
+var set2Projector1 = new timelineUtils.Timeline('set2Projector1', 5);
+
+//post("MSP JSON set1Light1: "+JSON.stringify(set1Light1)+ "\n");
+set1Light1.events = [100, 3000, 5500];
+set1Light2.events = [100, 2500, 5500];
+set1Projector1.events = [50, 2500, 7800];
+
+set2Light1.events = [1000, 2500, 5000];
+set2Light2.events = [300, 2000, 5000, 9000];
+set2Projector1.events = [200, 3000, 8000];
+
+// set1Light1.events = [100, 500];
+// set1Light2.events = [300];
+// set1Projector1.events = [700];
+//
+// set2Light1.events = [1000, 1500];
+// set2Light2.events = [1300];
+// set2Projector1.events = [100, 1000];
 
 inlets = 2;
-outlets = 4;
+outlets = 6;
 
 if (jsarguments.length>1) {
 	probability = jsarguments[1];
@@ -22,9 +37,14 @@ if (jsarguments.length>1) {
 // EVENTS
 function msg_int(v) {
 	post("in msg_int " + v + "\n");
-	light1.probability = v;
-    light2.probability = v;
-    projector1.probability = v;
+	set1Light1.probability = v;
+  set1Light2.probability = v;
+  set1Projector1.probability = v;
+
+	set2Light1.probability = v;
+  set2Light2.probability = v;
+  set2Projector1.probability = v;
+
 	work();
 }
 
@@ -36,7 +56,11 @@ function bang() {
 // WORK
 function work() {
 	// post("work \n");
-	light1.draw();
-	light2.draw();
-	projector1.draw();
+	set1Light1.draw();
+	set1Light2.draw();
+	set1Projector1.draw();
+
+	set2Light1.draw();
+	set2Light2.draw();
+	set2Projector1.draw();
 }
