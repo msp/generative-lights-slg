@@ -10,6 +10,10 @@ var set2Light2 = new timelineUtils.Timeline('set2Light2', 4);
 var set2Projector1 = new timelineUtils.Timeline('set2Projector1', 5);
 
 //post("MSP JSON set1Light1: "+JSON.stringify(set1Light1)+ "\n");
+// set1Light1.events = [100, 3000, 5500];
+// set1Light2.events = [100, 2500, 5500];
+// set1Projector1.events = [50, 2500, 7800];
+
 set1Light1.events = [100, 3000, 5500];
 set1Light2.events = [100, 2500, 5500];
 set1Projector1.events = [50, 2500, 7800];
@@ -18,10 +22,7 @@ set2Light1.events = [1000, 2500, 5000];
 set2Light2.events = [300, 2000, 5000, 9000];
 set2Projector1.events = [200, 3000, 8000];
 
-// set1Light1.events = [100, 500];
-// set1Light2.events = [300];
-// set1Projector1.events = [700];
-//
+
 // set2Light1.events = [1000, 1500];
 // set2Light2.events = [1300];
 // set2Projector1.events = [100, 1000];
