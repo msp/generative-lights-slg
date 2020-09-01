@@ -148,7 +148,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1274.0, 614.0, 777.0, 828.0 ],
+						"rect" : [ 63.0, 179.0, 777.0, 828.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -175,6 +175,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-19",
@@ -3155,7 +3156,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 1401.0, 99.0, 791.0, 1022.0 ],
+										"rect" : [ 187.0, 316.0, 791.0, 1022.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -3339,13 +3340,14 @@
 													"fontname" : "Arial",
 													"fontsize" : 13.0,
 													"id" : "obj-26",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 815.967957, 718.0, 220.0, 23.0 ],
 													"style" : "",
-													"text" : "Breathing-6.wav"
+													"text" : "20200901-assembly-now-narrative-07.wav"
 												}
 
 											}
@@ -3671,7 +3673,7 @@
 													"clipheight" : 66.4,
 													"data" : 													{
 														"clips" : [ 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 2/20.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1/20200901-assembly-now-narrative-20.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -3694,7 +3696,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 2/19.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1/20200901-assembly-now-narrative-19.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -3717,7 +3719,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 2/18.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1/20200901-assembly-now-narrative-18.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -3740,7 +3742,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 2/13.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1/20200901-assembly-now-narrative-13.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -3763,7 +3765,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 2/12.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1/20200901-assembly-now-narrative-12.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -3786,7 +3788,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 2/11.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1/20200901-assembly-now-narrative-11.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -3809,7 +3811,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 2/7.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1/20200901-assembly-now-narrative-07.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -3832,7 +3834,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 2/6.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1/20200901-assembly-now-narrative-06.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -3855,7 +3857,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 2/5.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1/20200901-assembly-now-narrative-05.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -3878,7 +3880,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 2/3.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1/20200901-assembly-now-narrative-03.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -4401,7 +4403,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"activebgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -4495,7 +4497,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1358.0, 329.0, 777.0, 983.0 ],
+						"rect" : [ 76.0, 103.0, 777.0, 983.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4522,6 +4524,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-19",
@@ -7506,6 +7509,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-12",
@@ -7675,13 +7679,14 @@
 													"fontname" : "Arial",
 													"fontsize" : 13.0,
 													"id" : "obj-26",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 815.967957, 718.0, 220.0, 23.0 ],
+													"patching_rect" : [ 815.967957, 718.0, 220.0, 38.0 ],
 													"style" : "",
-													"text" : "004_4.wav"
+													"text" : "20200901-assembly-now-narrative-14.wav"
 												}
 
 											}
@@ -8007,7 +8012,7 @@
 													"clipheight" : 66.4,
 													"data" : 													{
 														"clips" : [ 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 1/21.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1/20200901-assembly-now-narrative-21.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -8030,7 +8035,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 1/18.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1/20200901-assembly-now-narrative-18.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -8053,7 +8058,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 1/17.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1/20200901-assembly-now-narrative-17.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -8076,7 +8081,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 1/16.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1/20200901-assembly-now-narrative-16.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -8099,7 +8104,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 1/14.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1/20200901-assembly-now-narrative-14.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -8122,7 +8127,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 1/10.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1/20200901-assembly-now-narrative-10.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -8145,7 +8150,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 1/9b.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1/20200901-assembly-now-narrative-09.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -8168,7 +8173,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 1/8.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1/20200901-assembly-now-narrative-08.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -8191,7 +8196,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 1/4.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1/20200901-assembly-now-narrative-04.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -8214,7 +8219,7 @@
 
 															}
 , 															{
-																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/Narrative/Bucket 1/1.m4a",
+																"filename" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1/20200901-assembly-now-narrative-01.wav",
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
@@ -9820,7 +9825,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"activebgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"activebgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgoncolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
@@ -9980,7 +9985,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 83.0, 991.0, 386.0 ],
+						"rect" : [ 57.0, 322.0, 991.0, 386.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -10007,6 +10012,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-16",
@@ -10016,7 +10022,7 @@
 									"orientation" : 1,
 									"outlettype" : [ "signal", "signal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 116.0, 397.0, 121.0, 34.0 ],
+									"patching_rect" : [ 116.0, 397.0, 121.0, 48.0 ],
 									"presentation_rect" : [ 0.0, 0.0, 0.0, 34.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
@@ -10994,7 +11000,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u295001963"
+													"varname" : "u321002862"
 												}
 
 											}
@@ -11973,8 +11979,8 @@
 			"obj-22::obj-5::obj-23" : [ "bypass[1]", "bypass", 0 ],
 			"obj-2::obj-35" : [ "slider[5]", "slider[2]", 0 ],
 			"obj-5::obj-52" : [ "Level", "Level", 0 ],
-			"obj-29::obj-47" : [ "Release", "Release", 0 ],
 			"obj-29::obj-52" : [ "Threshold", "Threshold", 0 ],
+			"obj-29::obj-47" : [ "Release", "Release", 0 ],
 			"obj-6::obj-22" : [ "Mute[1]", "Mute", 0 ],
 			"obj-5::obj-22" : [ "Mute", "Mute", 0 ],
 			"obj-22::obj-5::obj-28" : [ "Center[1]", "Center", 0 ],
@@ -12040,6 +12046,76 @@
 				"name" : "pastebang.maxpat",
 				"bootpath" : "C74:/packages/BEAP/misc",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-21.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-18.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-17.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-16.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-14.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-10.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-09.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-08.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-04.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-01.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen1/s1Light1",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
@@ -12171,6 +12247,69 @@
 				"name" : "thru.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-20.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-19.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-13.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-12.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-11.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-07.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-06.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-05.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20200901-assembly-now-narrative-03.wav",
+				"bootpath" : "/System/Volumes/Data/Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"patcherrelativepath" : "../../../Dropbox-msp/Dropbox/msp/Cenatus Ltd/Clients/Assembly Now/metro-arts-gallery/samples/screen2/s2Light1",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
